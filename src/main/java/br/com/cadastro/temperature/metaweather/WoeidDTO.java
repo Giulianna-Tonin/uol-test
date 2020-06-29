@@ -1,4 +1,4 @@
-package br.com.cadastro.metaweather.api;
+package br.com.cadastro.temperature.metaweather;
 
 public class WoeidDTO {
 
@@ -8,7 +8,4 @@ public class WoeidDTO {
         return woeid;
     }
 
-    public void setWoeid(Integer woeid) {
-        this.woeid = woeid;
-    }
 }

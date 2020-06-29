@@ -1,10 +1,10 @@
-package br.com.cadastro.metaweather.api;
+package br.com.cadastro.temperature.metaweather;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class TemperatureDTO {
+public class WeatherDTO {
 
     @JsonProperty("min_temp")
     private Double min;
@@ -27,4 +27,5 @@ public class TemperatureDTO {
     public void setMax(Double max) {
         this.max = max;
     }
+
 }

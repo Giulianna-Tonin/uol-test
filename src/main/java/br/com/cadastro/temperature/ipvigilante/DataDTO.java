@@ -1,4 +1,4 @@
-package br.com.cadastro.ipvigilante.api;
+package br.com.cadastro.temperature.ipvigilante;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
